@@ -52,7 +52,7 @@
 	// Loads `latest.json` (latest rates)
 	oxr.latest = function(callback) {
 		oxr.load('latest.json', callback);
-		return oxr;
+		return callback;
 	}
 
 	// Loads `historical/yyyy-mm-dd.json` (historical rates)
